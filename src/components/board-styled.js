@@ -5,7 +5,7 @@ export const Tablero = styled.div`
   position: relative;
   display: block;
   background-color: #ffffff;
-  padding: 10px;
+  padding-top: 20px;
 `
 export const Fila = styled.div`
   position: relative;
