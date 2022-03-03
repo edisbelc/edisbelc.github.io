@@ -5,21 +5,21 @@ export const Tablero = styled.div`
   position: relative;
   display: block;
   background-color: #ffffff;
-  padding: 40px;
+  padding: 10px;
 `
 export const Fila = styled.div`
   position: relative;
   display: block;
   margin: 0;
   padding: 0;
-  height: 50px;
+  height: 40px;
 `
 
 export const Casilla = styled.div`
   display: inline-block;
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   margin: 0;
 
   &.blanco {
@@ -37,16 +37,16 @@ export const Pieza = styled.div`
   background-image: url(${imgPieza});
   left: 2px;
   top: 2px;
-  width: 46px;
-  height: 46px;
-  background-size: 114px 114px;
-  background-position: -7px -7px;
+  width: 36px;
+  height: 36px;
+  background-size: 90px 90px;
+  background-position: -3px -3px;
   border-radius: 50%;
 
   &.jugador1 {
-    background-position: 54px -7px;
+    background-position: 42px -6px;
   }
   &.jugador2 {
-    background-position: -7px 54px;
+    background-position: -6px 42px;
   }
 `
